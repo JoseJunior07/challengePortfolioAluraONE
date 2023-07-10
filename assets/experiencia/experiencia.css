@@ -1,0 +1,151 @@
+.container-experiencia {
+    background-color: #3a49ce41;
+    width: 1349px;
+    height: 1127px;
+    
+}
+
+.experiencia-cabecalho {
+    color: #464646;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 42px 0 42px 0;
+    
+}
+
+.imagem-experiencia {
+    width: 752px;
+    height: 406px;
+    margin-left: 5rem;
+}
+
+.container-titulo {
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.titulo-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    color: #464646;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.subtitulo-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    color: #464646;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    width: 560px;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.btn-repo {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background-color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-demo {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container-titulo2 {
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+    margin-left: 85px;
+    
+}
+
+.texto-experiencia2 {
+    width: 290px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-experiencia {
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        justify-content: space-between;
+
+        width: 704px;
+        
+    }
+
+    .container-titulo {
+        flex-direction: column;
+    }
+
+    .titulo-experiencia {
+        justify-content: center;
+    }
+
+    .texto-experiencia {
+        margin-left: 32%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-experiencia {
+        width: 684px;
+        height: 406px;
+        margin-left: 9rem;
+        margin-right: 10rem;
+    }
+
+    .container-titulo2 {
+        flex-direction: column-reverse;
+        margin-left: 0;
+        
+    }
+
+    .texto-experiencia2  {
+        margin-left: 10%;
+        
+    }
+
+
+    
+}

@@ -1,0 +1,127 @@
+.container-contato {
+    display: flex;
+    width: 1440px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #EDEDED;
+}
+
+.container__dados-contato {
+    display: flex;
+    width: 1136px;
+    padding: 64px 0px 0px 0px;
+    align-items: center;
+    gap: 16px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.cabecalho-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.titulo-contato {
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.subtitulo-contato {
+    display: flex;
+    width: 656px;
+    flex-direction: column;
+
+    color: #464646;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+  
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    display: none;
+}
+  
+.form-group input:not(:placeholder-shown),
+.form-group textarea:not(:placeholder-shown) {
+    padding-top: 30px;
+}
+  
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.btn-form {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: auto;
+    background: #2A7AE4;
+    color:  white;
+    font-size: 14px;
+    border: none;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contato {
+        width: 704px;
+    }
+
+    .imagem-contato {
+        display: none;
+    }
+
+    .container-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex: 1 0 0;
+    }
+
+    .form-group {
+        width: 640px;
+    }
+}
+  

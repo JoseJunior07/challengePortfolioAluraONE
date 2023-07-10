@@ -1,0 +1,66 @@
+.container-formacao {
+    background-color: #EDEDED;
+    width: 1349px;
+    height: 417px;
+    
+}
+
+.formacao-cabecalho {
+    color: #464646;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 42px 0 42px 0;
+}
+
+.dados-academicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 102px;
+    
+}
+
+
+.imagem {
+    background-color: white;
+    padding: 32px;
+    width: 236px;
+    height: 140px;
+    text-align: center;
+}
+
+.imagem-ifpb {
+    width: 110px;
+     
+}
+
+.titulo-curso {
+    color: #464646;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+
+.paragrafo-curso {
+    color: #464646;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+    padding: 5px 0 0 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-formacao {
+        display: flex;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+
+        width: 704px;
+        height: 491px;
+    }
+}
