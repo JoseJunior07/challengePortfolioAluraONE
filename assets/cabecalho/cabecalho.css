@@ -12,10 +12,11 @@
 .container {
     display: flex;
     gap: 8px;
-    max-width: 1036px;
+    max-width: 150px;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
+    margin-left: 120px;
 }
 
 .logo {
@@ -35,9 +36,10 @@
     gap: 32px;
     order: 1;
     flex-grow: 0;
-    width: 100%;
+    width: 50%;
     height: 19px;
     text-decoration: none;
+    margin-right: 80px;
 }
 
 .cabecalho-nav a {
