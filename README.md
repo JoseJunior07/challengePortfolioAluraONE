@@ -6,6 +6,9 @@ Este é um projeto de portfólio pessoal desenvolvido por José Júnior.
 
 Este projeto consiste em um site de portfólio para exibir informações sobre minhas habilidades, formação acadêmica, experiência profissional, hobbies e informações de contato. O site possui diferentes seções e utiliza HTML, CSS e JavaScript para criar uma experiência interativa e responsiva.
 
+# Deploy: 
+https://josejunior07.github.io/challengePortfolioAluraONE/
+
 ## Estrutura do projeto
 
 O projeto está estruturado da seguinte maneira:
